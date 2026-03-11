@@ -1,0 +1,110 @@
+body{
+font-family: Arial;
+margin:0;
+padding:0;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+background:#111;
+color:white;
+padding:15px 40px;
+}
+
+nav a{
+color:white;
+margin-left:20px;
+text-decoration:none;
+}
+
+.hero{
+text-align:center;
+padding:100px 20px;
+background:#f5f5f5;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.btn{
+background:#ff4d4d;
+color:white;
+padding:12px 20px;
+border:none;
+margin:10px;
+cursor:pointer;
+}
+
+.btn2{
+background:#333;
+color:white;
+padding:12px 20px;
+border:none;
+margin:10px;
+cursor:pointer;
+}
+
+.about{
+padding:60px;
+text-align:center;
+}
+
+.steps{
+padding:60px;
+background:#fafafa;
+text-align:center;
+}
+
+.step{
+margin:15px;
+font-size:18px;
+}
+
+.categories{
+padding:60px;
+text-align:center;
+}
+
+.categories ul{
+list-style:none;
+}
+
+.categories li{
+margin:10px;
+font-size:18px;
+}
+
+.investor{
+padding:60px;
+background:#eee;
+text-align:center;
+}
+
+.startups{
+padding:60px;
+text-align:center;
+}
+
+.card{
+border:1px solid #ddd;
+padding:20px;
+margin:15px;
+display:inline-block;
+width:200px;
+}
+
+.cta{
+padding:80px;
+background:#222;
+color:white;
+text-align:center;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#111;
+color:white;
+}
